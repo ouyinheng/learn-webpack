@@ -1,0 +1,15 @@
+{
+  "name": "webpack-study",
+  "version": "1.0.0",
+  "description": "> 一直在学习webpack确没有完整的配置过，这里就从配置一个开发vue的项目结束",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.34.0"
+  }
+}
