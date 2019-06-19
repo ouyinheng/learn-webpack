@@ -12,7 +12,7 @@ webpack --config webpack.config.js
   //nodejs内置模块
   const path = require('path');
   module.exports = {
-    //设置打包环境为生产模式还是开发模式，默认为生产模式(production)，生产模式的代码会进行压缩，删除空格和回车等
+    //设置打包环境为生产模式还是开发模式，默认为生产模式(production)，生产模式的代码会进行压缩，删除空格、回车、注释等等
     mode: 'development',
     //入口文件
     entry: './app.js',
