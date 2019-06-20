@@ -1,0 +1,20 @@
+{
+  "name": "04loader",
+  "version": "1.0.0",
+  "description": "loader",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "webpack --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-loader": "^8.0.0-beta.0",
+    "css-loader": "^3.0.0",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^0.23.1"
+  }
+}
