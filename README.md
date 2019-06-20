@@ -18,5 +18,11 @@ webpack -v
   <a href="./01简单示例/README.md" alt="01简单示例">01简单示例</a>
 </p>
 <p>
-  <a href="./02入口/README.md" alt="02入口">02入口</a>
+  <a href="./02入口与出口/README.md" alt="02入口">02入口与出口</a>
+</p>
+<p>
+  <a href="./03模式/README.md" alt="03模式">03模式</a>
+</p>
+<p>
+  <a href="./04loader/README.md" alt="04loader">04loader</a>
 </p>
