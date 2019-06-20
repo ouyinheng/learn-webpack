@@ -41,3 +41,14 @@ module.exports = {
   "dev": "webpack --config webpack.config.js"
 }
 ```
+
+### 出口
+webpack的文档中写到：必须包含以下两项
+- filename 用于输出文件的文件名。
+- 目标输出目录 path 的绝对路径
+```
+output: {
+  filename: '[name].buldle.js',
+  path: __dirname+'/dist'
+}
+```

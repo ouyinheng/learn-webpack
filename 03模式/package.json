@@ -1,0 +1,12 @@
+{
+  "name": "mode",
+  "version": "1.0.0",
+  "description": "webpack",
+  "main": "app.js",
+  "scripts": {
+    "dev": "webpack --mode=development --config webpack.config.js",
+    "build": "webpack --mode=production --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
