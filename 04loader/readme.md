@@ -22,8 +22,8 @@
 module: {
   rules: [
     {
-      test: /\.css$/,
-      use: [ 'style-loader', 'css-loader' ]
+      test: /\.css$/,//正则匹配文件后缀名
+      use: [ 'style-loader', 'css-loader' ]//针对css结尾的文件使用的loader
     }
   ]
 }
